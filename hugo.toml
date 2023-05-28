@@ -1,0 +1,11 @@
+baseURL = 'https://sgulci.github.io/'
+languageCode = 'en-us'
+title = 'My Blog'
+theme        = "anatole"
+enableEmoji = true
+
+
+[params]
+ title = "A BLOG"
+ author = "Sahin Gulci"
+ description = "Amusement of this person's life"
