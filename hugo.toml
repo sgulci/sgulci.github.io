@@ -1,0 +1,46 @@
+baseURL = 'https://sgulci.github.io/'
+languageCode = 'en-us'
+title = 'My New  Site'
+theme = "anatole"
+
+
+[params]
+title = "I'm Sahin Gulci"
+author = "Sahin Gulci"
+description = "Call me Sahin"
+profilePicture = "images/profile.jpg"
+contentratio = 0.8
+hidesidebar = false
+doNotLoadAnimations = true # Animations are loaded by default
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+
