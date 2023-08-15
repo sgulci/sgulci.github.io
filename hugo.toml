@@ -2,6 +2,7 @@ baseURL = 'https://sgulci.github.io/'
 languageCode = 'en-us'
 title = 'My New  Site'
 theme = "anatole"
+publishDir = "docs"
 
 
 [params]
